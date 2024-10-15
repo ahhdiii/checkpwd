@@ -1,6 +1,6 @@
 import getpass
 def checkpwd(pwd):
-    spc = "\'\"\\!@#$%^&*():;.,/[-_=+`]"
+    spc = "\'\"\\!@#$%^&<>?|{}`~*():;.,/[-_=+`]"
     if len(pwd) < 8:
         print("Password must be at least 8 characters long.\n")
         return False
